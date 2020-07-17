@@ -1,8 +1,6 @@
 ## React Native Screens
 
-A simple cross platform (iOS and Android) React Native timer app.
-
-<!-- ![Image](./assets/Timer1.png) ![Image](./assets/Timer2.png) -->
+React Native Screens which are used in most of Apps.
 
 |       Welcome       |       Account       |
 | :-----------------: | :-----------------: |
@@ -13,7 +11,7 @@ A simple cross platform (iOS and Android) React Native timer app.
 
 ### Installation
 
-- `git clone https://github.com/Manojj999/RN-Timer.git`
+- `git clone https://github.com/Manojj999/RN-SignIn_SignUp.git`
 - `yarn install`/`npm install`
 
 ### Running
