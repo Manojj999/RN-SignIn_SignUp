@@ -7,8 +7,8 @@ A simple cross platform (iOS and Android) React Native timer app.
 |       Welcome       |       Account       |
 | :-----------------: | :-----------------: |
 | ![](./assets/1.png) | ![](./assets/4.png) |
-|       SignIn        |      Register       |
 |                     |                     |
+|       SignIn        |      Register       |
 | ![](./assets/2.png) | ![](./assets/3.png) |
 
 ### Installation
