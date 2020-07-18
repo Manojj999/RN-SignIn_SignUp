@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet,Image } from "react-native";
+import { StyleSheet, Image, Dimensions } from "react-native";
 import * as Yup from "yup";
 
 import Screen from "../components/Screen";
@@ -50,13 +50,17 @@ function RegisterScreen() {
   );
 }
 
+const screen1 = Dimensions.get("window");
 const styles = StyleSheet.create({
   container: {
     padding: 10,
+    flex: 1,
+    width: screen1.width,
+    height: screen1.height,
   },
   logo: {
-    width: 120,
-    height: 120,
+    width: 100,
+    height: 100,
     alignSelf: "center",
     marginTop: 50,
     marginBottom: 20,

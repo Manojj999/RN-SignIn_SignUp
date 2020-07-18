@@ -1,5 +1,5 @@
 import React from "react";
-import { ImageBackground, StyleSheet, View, Image,StatusBar, Text } from "react-native";
+import { ImageBackground, StyleSheet, View, Image,StatusBar, Dimensions,Text } from "react-native";
 import Screen from '../components/Screen';
 import Button from "../components/Button";
 
@@ -25,12 +25,14 @@ function WelcomeScreen(props) {
     
   );
 }
-
+const screen1 = Dimensions.get("window");
 const styles = StyleSheet.create({
   background: {
     flex: 1,
     justifyContent: "flex-end",
     alignItems: "center",
+    width: screen1.width,
+    height: screen1.height,
   },
   buttonsContainer: {
     padding: 20,

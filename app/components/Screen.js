@@ -5,7 +5,7 @@ import { StyleSheet, SafeAreaView, View ,StatusBar} from "react-native";
 function Screen({ children, style }) {
   return (
     <SafeAreaView style={[styles.screen, style]}>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="default" />
       <View style={[styles.view, style]}>{children}</View>
     </SafeAreaView>
   );

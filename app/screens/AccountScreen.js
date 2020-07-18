@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, View, FlatList } from "react-native";
+import { StyleSheet, View, FlatList ,Dimensions} from "react-native";
 
 import { ListItem, ListItemSeparator } from "../components/lists";
 import colors from "../config/colors";
@@ -58,10 +58,12 @@ function AccountScreen(props) {
     </Screen>
   );
 }
-
+const screen1 = Dimensions.get("window");
 const styles = StyleSheet.create({
   screen: {
     backgroundColor: colors.light,
+    width: screen1.width,
+    height: screen1.height,
   },
   container: {
     marginVertical: 20,
